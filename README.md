@@ -1,3 +1,5 @@
+# Themes being worked on! please wait
+
 # LUNA
 a lightweight notepad application.
 
