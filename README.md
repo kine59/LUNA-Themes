@@ -6,6 +6,7 @@ Luna Themes is a addon (or whatever you'd like to call it) for the LUNA app.
 <img src="https://files.catbox.moe/z5gb43.png" alt="LUNA Matcha" width="250">
 <img src="https://files.catbox.moe/bslq6i.png" alt="LUNA Gum" width="250">
 <img src="https://files.catbox.moe/tvk8ev.png" alt="LUNA Dracula" width="250">
+<img src="https://files.catbox.moe/0t116i.png" alt="LUNA Sandy" width="250">
 
 ## What is LUNA?
 > LUNA, or Lightweight Universal Notes Application, was originally created for myself because I couldn't find a plaintext editor that I liked enough. LUNA aims to provide a simple, no-nonsense way to create and edit text files. It can also import and export formats like .md and .rtf. txt and md files have been tested and should work smoothly with LUNA. rtf files can be imported and exported, but LUNA itself will not render them and will display the data in plaintext instead.
