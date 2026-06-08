@@ -1,4 +1,4 @@
-﻿namespace LUNA
+namespace LUNA
 {
     partial class Main
     {
@@ -109,9 +109,9 @@
             this.charCountLabel.Location = new System.Drawing.Point(7, 384);
             this.charCountLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.charCountLabel.Name = "charCountLabel";
-            this.charCountLabel.Size = new System.Drawing.Size(98, 18);
+            this.charCountLabel.Size = new System.Drawing.Size(100, 18);
             this.charCountLabel.TabIndex = 6;
-            this.charCountLabel.Text = "characters: ";
+            this.charCountLabel.Text = "Characters: ";
             // 
             // textBox
             // 
@@ -240,4 +240,3 @@
         private System.Windows.Forms.Button aboutButton;
     }
 }
-
