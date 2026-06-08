@@ -31,10 +31,10 @@ Luna Themes is a addon (or whatever you'd like to call it) for the LUNA app.
 - LUNA is also available for download on [itch.io](https://kumori-arashi.itch.io/luna).
   
 ### Installing / Executing
-- You should not need to downlad anything else to run LUNA. Simply download the .exe from the releases and run it. Please let (Kumori Arashi) know if you run into any issues.
+- You should not need to downlad anything else to run LUNA. Simply download the .zip from the releases and run it. Please let Kine59 (or if its an error from the original version: Kumori Arashi) know if you run into any issues.
 
 ## Changing Themes
-- You click on the 2 arrow buttons on the top-right corner to choose a theme. To change your theme, you click on the button inbetween them.
+- You click on the 2 arrow buttons on the top-right corner to choose a theme. To change your theme, you click on the button inbetween them. When you change your theme, it saves it to a file called theme.
 
 ## Technologies used (so far)
 - C#
