@@ -1,4 +1,4 @@
-﻿using LUNA.Properties;
+using LUNA.Properties;
 using System;
 using System.Drawing;
 using System.IO;
@@ -255,6 +255,25 @@ namespace LUNA
                     textBox.BackColor = ColorTranslator.FromHtml("#6272A4");
                     textBox.ForeColor = Color.White;
                     break;
+                // Sandy
+                case 6:
+                    this.ForeColor = Color.Black;
+                    this.BackColor = ColorTranslator.FromHtml("#ffc081");
+                    themeChange1.ForeColor = Color.Black;
+                    themeChange2.ForeColor = Color.Black;
+
+                    openButton.BackColor = ColorTranslator.FromHtml("#ffd6ad");
+                    saveButton.BackColor = ColorTranslator.FromHtml("#ffd6ad");
+                    newButton.BackColor = ColorTranslator.FromHtml("#ffd6ad");
+                    renderButton.BackColor = ColorTranslator.FromHtml("#ffd6ad");
+                    themeButton.BackColor = ColorTranslator.FromHtml("#ffd6ad");
+                    themeChange1.BackColor = ColorTranslator.FromHtml("#ffd6ad");
+                    themeChange2.BackColor = ColorTranslator.FromHtml("#ffd6ad");
+                    aboutButton.BackColor = ColorTranslator.FromHtml("#ffd6ad");
+
+                    textBox.BackColor = Color.Bisque;
+                    textBox.ForeColor = Color.Black;
+                    break;
             }
         }
         private void button2_Click(object sender, EventArgs e) // this is themechange 2
@@ -279,12 +298,15 @@ namespace LUNA
                 case 5:
                     themeButton.Text = "Dracula";
                     break;
+                case 6:
+                    themeButton.Text = "Sandy";
+                    break;
             }
 
             // clamp system
-            if (theme >= 5)
+            if (theme >= 6)
             {
-                theme = 5;
+                theme = 6;
             }
         }
 
@@ -308,6 +330,9 @@ namespace LUNA
                     break;
                 case 5:
                     themeButton.Text = "Dracula";
+                    break;
+                case 6:
+                    themeButton.Text = "Sandy";
                     break;
             }
 
@@ -360,6 +385,11 @@ namespace LUNA
                 case "Dracula":
                     theme = 5;
                     themeButton.Text = "Dracula";
+                    lightMode_Click(sender, e);
+                    break;
+                case "Sandy":
+                    theme = 6;
+                    themeButton.Text = "Sandy";
                     lightMode_Click(sender, e);
                     break;
             }
